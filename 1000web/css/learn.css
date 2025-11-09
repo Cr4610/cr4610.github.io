@@ -1,0 +1,29 @@
+/* body color select */
+body{background-color: #F5F3F6}
+/* ID select*/
+#title-1{text-decoration: line-through}
+/* class select */
+.title{margin-top:10px;
+margin-bottom:10px;
+color: #D18DA2;
+font-size: 24px}
+
+.content{padding: 10px;
+color: rgb(233, 174, 201)}
+
+.keyword{color: blue}
+
+
+/* layout */
+.frame{
+display: flex; /* let object  */
+}
+.left{
+flex:none; /* 固定配置 */
+width: 600px;
+background-color: #D18DA2;
+}
+.right{
+background-color: aqua;
+flex:auto; /* 固定配置 */
+}
